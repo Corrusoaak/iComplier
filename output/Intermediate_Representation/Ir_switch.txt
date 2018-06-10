@@ -1,0 +1,22 @@
+main:
+	t=a==0
+	if(not t)
+	goto END_1
+	a=1
+END_1:
+	t=a==1
+	if(not t)
+	goto END_2
+	a=2
+END_2:
+	t=a==3
+	if(not t)
+	goto END_3
+	a=3
+END_3:
+DEFAULT_0: 
+	a=4
+END_0:
+	v0=0
+	rtn
+

@@ -1,0 +1,14 @@
+main:
+	sum=0
+	i=0
+BEGIN_0:
+	sum=sum+i
+	t0=i
+	i=i+1
+	t1=i<=10
+	if (t1)
+	goto BEGIN_0
+END_0:
+	v0=0
+	rtn
+

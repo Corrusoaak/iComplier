@@ -1,0 +1,16 @@
+int
+main()
+{
+    int a = 2, sum = 0, tmp;
+    int i, j;
+
+    for(i = 0; i < 10; i ++)
+    {
+        tmp = 0;
+        for(j = 0; j <= i; j ++)
+            tmp = tmp *10 + a;
+        sum += tmp;
+    }
+
+    return 0;
+}

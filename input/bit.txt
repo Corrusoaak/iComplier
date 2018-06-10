@@ -1,0 +1,9 @@
+int
+main()
+{
+    int a = 1, b = 2, c = 4;
+    int d = ~(a & (b | c));
+
+    d = d << 2;
+    d = d >> 1;
+}

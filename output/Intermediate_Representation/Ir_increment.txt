@@ -1,0 +1,8 @@
+main:
+	a=0
+	t0=a
+	a=a+1
+	t1=a+1
+	a=t1
+	rtn
+

@@ -1,0 +1,37 @@
+main:
+	a=2
+	sum=0
+	i=0
+BEGIN_0:
+	t0=i<10
+	if(not t0)
+	goto END_0
+	goto body_0
+inc_0:
+	t1=i
+	i=i+1
+	goto BEGIN_0
+body_0:
+	tmp=0
+	j=0
+BEGIN_1:
+	t2=j<=i
+	if(not t2)
+	goto END_1
+	goto body_1
+inc_1:
+	t3=j
+	j=j+1
+	goto BEGIN_1
+body_1:
+	t4=tmp*10
+	t5=t4+a
+	tmp=t5
+goto inc_1
+END_1:
+	sum=sum+tmp
+goto inc_0
+END_0:
+	v0=0
+	rtn
+

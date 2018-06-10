@@ -1,0 +1,18 @@
+int f1(int a)
+{
+	int s = a;
+	return (s);
+}
+
+int f2(int b)
+{
+	return 1;
+}
+
+int main(){
+	int a = 1, b = 2;
+	a = f1(a);
+	b = f2(b);
+	return 0;
+}
+

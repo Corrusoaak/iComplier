@@ -1,0 +1,10 @@
+main:
+	a=1
+	b=2
+	c=4
+	t0=b||c
+	t1=a&&t0
+	t2=!t1
+	d=t2
+	rtn
+

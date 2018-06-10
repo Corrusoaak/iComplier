@@ -1,0 +1,11 @@
+int main()
+{
+	float a;
+    char *p;
+	int b, c, d;	
+	b = a << 1;
+	c = a | 1;
+	d = a % 2;	
+    p = p + 1.5;
+	return 0;
+}

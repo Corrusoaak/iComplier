@@ -1,0 +1,15 @@
+int
+main()
+{
+    int a = 1, b = 2;
+    int c;
+
+    c = -a;
+    c = a + b;
+    c = a - b;
+    c = a * b;
+    c = a / b;
+    c = a % b;
+
+    return 0;
+}

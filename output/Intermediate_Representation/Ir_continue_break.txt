@@ -1,0 +1,27 @@
+main:
+	sum=0
+	i=0
+BEGIN_0:
+	if(not 1)
+	goto END_0
+	goto body_0
+inc_0:
+	t0=i
+	i=i+1
+	goto BEGIN_0
+body_0:
+	goto END_0
+	t1=i%2
+	t2=t1==0
+	if (not t2) 
+	goto FALSE_1
+	goto BEGIN_1
+	goto END_1
+FALSE_1:
+END_1:
+	sum=sum+i
+goto inc_0
+END_0:
+	v0=0
+	rtn
+
